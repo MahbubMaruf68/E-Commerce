@@ -520,5 +520,8 @@ footer .Download img {
   }
   #navbar #close{
     display: block;
-  } 
+  }
+  #navbar #lg-bag{
+    display: none;
+  }
 }
