@@ -575,32 +575,67 @@ footer .Download img {
     padding: 0px 30px 0px 50px;
     background-position: top 30% right 18%;
     line-height: 20px;
+  }
+  #banner-3 .banner-box {
+    background-position: top 30% right 30%;
+    height: 21vh;
+    line-height: 2px;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+  }
+  #banner-3 h2 {
+    font-size: 5px;
+  }
+  #banner-3 h3 {
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 15px;
+  }
+  #banner-3 h3 span {
+    font-size: 15px;
+    font-weight: 800;
+  }
+  #newsleter {
+    display: flex;
+    align-items: flex-start;
+    background-color: navy;
+    padding: 20px 30px;
+    margin: 20px 0;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
 }
-#banner-3 .banner-box {
-  background-position: top 30% right 30%;
-  height: 21vh;
-  line-height: 2px;
-  padding: 6px;
-  justify-content: center;
-  align-items: center;
-}
-#banner-3 h2 {
-  font-size: 5px;
-}
-#banner-3 h3 {
-  font-size: 10px;
-  font-weight: 800;
-  line-height: 15px;
-}
-#banner-3 h3 span{
-  font-size: 15px;
-  font-weight: 800;
-}
-#newsleter button {
-  font-size: 7px;
-}
-footer{
+/* Shop */
+#page-header {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(Images/banner/b1.jpg);
+  background-size: cover;
+  padding: 30px 10px;
 }
+#page-header h2 {
+  color: white;
+}
+#page-header p {
+  color: #088178;
+}
+#pagination{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#pagination a {
+  background-color: #088178;
+  margin: 5px;
+  padding: 10px 19px;
+  text-decoration: none;
+  color: white;
 }
