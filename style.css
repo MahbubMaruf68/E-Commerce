@@ -230,6 +230,11 @@ button.white {
   box-shadow: 20px 20px 30px rgb(0, 0, 0, 0.06);
   background-color: #d6dfde;
 }
+#product1 .pro:hover img {
+  transition: all 0.3s ease-in-out;
+  padding: 5px;
+}
+
 #product1 .pro img {
   width: 100%;
   border-radius: 20px;
@@ -641,49 +646,50 @@ footer .Download img {
 }
 /* single product */
 
-#productdetails .single-pro-image{
+#productdetails .single-pro-image {
   width: 40%;
 }
-#productdetails .small-img-group{
+#productdetails .small-img-group {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
-#productdetails .small-img-col{
-    flex-basis: 23%;
-    cursor: pointer;
+#productdetails .small-img-col {
+  flex-basis: 23%;
+  cursor: pointer;
 }
-#productdetails img{
+#productdetails img {
   outline: 1px solid #a1a0a0;
 }
-#productdetails{
+#productdetails {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-#productdetails .single-pro-details{
+#productdetails .single-pro-details {
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
-#productdetails .single-pro-details h2{
+#productdetails .single-pro-details h2 {
   font-size: 3vw;
   line-height: 5vw;
 }
-.single-pro-details h4{
+.single-pro-details h4 {
   color: black;
   font-size: 2vw;
 }
-.single-pro-details span, h6{
+.single-pro-details span,
+h6 {
   font-size: 1vw;
   font-weight: normal;
   color: #606063;
 }
-.single-pro-details select{
+.single-pro-details select {
   height: 30px;
   background-color: #088178;
   color: white;
@@ -692,20 +698,20 @@ footer .Download img {
   padding: 0px 10px;
 }
 
-.inputcart{
+.inputcart {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   margin: 10px 0;
 }
-.inputcart input{
+.inputcart input {
   width: 50px;
   height: 30px;
   border: 2px solid #088178;
   outline: none;
   padding: 0 5px;
 }
-.inputcart button{
+.inputcart button {
   color: white;
   height: 30px;
   background-color: #088178;
@@ -714,4 +720,50 @@ footer .Download img {
   border: none;
   font-size: 10px;
   padding: 0 5px;
+}
+
+/* blog page */
+#page-header.blog-header {
+  background-image: url(Images/banner/b19.jpg);
+}
+#blog {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; */
+}
+#blog .blog-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#blog .blog-box .blog-img {
+  width: 45%;
+}
+#blog .blog-box .blog-img img {
+  width: 80%;
+  height: 25vw;
+}
+#blog .blog-box .blog-details {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+#blog h4 {
+  color: black;
+  font-size: 1.7vw;
+  padding: 0;
+}
+.blog-details a {
+  text-decoration: none;
+  color: #088178;
+  font-size: 1.3vw;
+}
+#blog p {
+  margin: 2vh 0;
+  font-size: 1.2vw;
 }
