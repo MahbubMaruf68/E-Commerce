@@ -767,3 +767,47 @@ h6 {
   margin: 2vh 0;
   font-size: 1.2vw;
 }
+/* about section */
+#page-header.about-header{
+  background-image: url(Images/about/banner.png);
+}
+.about-element{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-element img{
+  width: 40%;
+  height: 25vw;
+}
+.about-element .element-details{
+  width: 50%;
+}
+.about-element .element-details h2{
+  font-size: 2vw;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  margin-bottom: 3vw;
+}
+.about-element .element-details p , marquee{
+  margin: 1vw 0;
+  font-size: 1.2vw; 
+}
+#about-app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#about-app video{
+  width: 50%;
+}
+#about-app h2{
+  line-height: 0;
+  font-size: 3vw;
+  padding-bottom: 3vw;
+}
