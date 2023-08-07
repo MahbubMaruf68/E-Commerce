@@ -768,46 +768,75 @@ h6 {
   font-size: 1.2vw;
 }
 /* about section */
-#page-header.about-header{
+#page-header.about-header {
   background-image: url(Images/about/banner.png);
 }
-.about-element{
+.about-element {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-.about-element img{
+.about-element img {
   width: 40%;
   height: 25vw;
 }
-.about-element .element-details{
+.about-element .element-details {
   width: 50%;
 }
-.about-element .element-details h2{
+.about-element .element-details h2 {
   font-size: 2vw;
   margin: 0;
   padding: 0;
   line-height: 0;
   margin-bottom: 3vw;
 }
-.about-element .element-details p , marquee{
+.about-element .element-details p,
+marquee {
   margin: 1vw 0;
-  font-size: 1.2vw; 
+  font-size: 1.2vw;
 }
-#about-app{
+#about-app {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-#about-app video{
+#about-app video {
   width: 50%;
 }
-#about-app h2{
+#about-app h2 {
   line-height: 0;
   font-size: 3vw;
   padding-bottom: 3vw;
+}
+/* location */
+#contact-location {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.map-location iframe {
+  height: 35vw;
+  width: 35vw;
+  padding-top: 5vh;
+}
+#contact-location h4 {
+  padding: 1vw 0;
+  color: #088178;
+  font-size: 1.9vw;
+}
+#contact-location i,
+span {
+  margin: 2px;
+  color: #606063;
+  font-size: 1.7vw;
+}
+#contact-location h5 {
+  margin: 2px 0;
+  margin-bottom: 15px;
+  font-size: 1.8vw;
 }
